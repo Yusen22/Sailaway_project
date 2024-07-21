@@ -1,3 +1,6 @@
+import heroImg1 from './assets/hero-img-1.jpg'
+import heroImg2 from './assets/hero-img-2.jpg'
+import heroImg3 from './assets/hero-img-3.jpg'
 
    export const navLinks = [
         {
@@ -65,6 +68,28 @@
             alt: '',
             href: ''
         }
+    ]
+
+    export const heroColumn = [
+        {
+            img: heroImg1,
+            id: 1,
+            alt: '',
+            text: '1'
+        },
+        {
+            img: heroImg2,
+            id: 2,
+            alt: '',
+            text: '2'
+        },
+        {
+            img: heroImg3,
+            id: 3,
+            alt: '',
+            text: '3'
+        },
+       
     ]
 
     
