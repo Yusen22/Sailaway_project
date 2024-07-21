@@ -6,7 +6,7 @@ const Navbar = () => {
 
 
     return (
-        <header className="min-w-full border-b-2 fixed top-0 space-x-5 h-16 py-5 px-10 flex text-center items-center">
+        <nav className="min-w-full border-b-2 bg-white fixed top-0 space-x-5 h-16 py-5 px-10 flex text-center items-center z-10">
             <NavLogo />
             <div className="flex w-full justify-between pl-10 pr-6">
                 <ul className="navlinks flex space-x-14 justify-center text-xl items-end">
@@ -21,7 +21,7 @@ const Navbar = () => {
                         )
                     })}
                 </ul>
-                <ul className="side-navlinks flex space-x-5 justify-center items-center">
+                <ul className="side-navlinks flex space-x-8 justify-center items-center">
                     {console.log(icons[0])}
                     {sideNavLinks.map((list, i) => {
                         return (
@@ -35,7 +35,7 @@ const Navbar = () => {
                     })}
                 </ul>
             </div>
-        </header>
+        </nav>
     )
 }
 
