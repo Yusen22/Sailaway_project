@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer>
+    <footer className="w-screen h-48 bg-slate-800">
         
     </footer>
   )
