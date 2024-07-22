@@ -7,7 +7,7 @@ const Trips = () => {
 
     const TripCard = ({ img, alt, imgText, title, text, country, icon, duration, cost }) => {
         return (
-            <div className="p-4 border text-black rounded-md shadow-md hover:shadow-lg hover:scale-[100.5%]">
+            <div className="p-4 border text-black rounded-md shadow-md hover:shadow-lg hover:scale-[100.4%]">
                 <div className="relative mb-4">
                     <img className="rounded-md" src={img} alt={alt} />
                     <p className="absolute bottom-0 right-0 py-1 px-3 bg-sky-400 rounded-tl-lg text-sm">{imgText}</p>
