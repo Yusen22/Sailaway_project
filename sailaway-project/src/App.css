@@ -35,8 +35,17 @@
 }
 
 .card {
-  padding: 2em;
+  @apply border rounded-3xl p-5 shadow-sm mx-5
 }
+
+.absolute-centered-h {
+  @apply absolute mx-auto left-0 right-0
+}
+
+/* .card:hover {
+  animation: headShake;
+  animation-duration: 1s;
+} */
 
 .read-the-docs {
   color: #888;
