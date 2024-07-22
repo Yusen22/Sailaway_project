@@ -1,5 +1,5 @@
 import { navLinks, sideNavLinks, icons } from "../data.jsx"
-import NavLogo from "./NavLogo"
+import NavLogo from "./common/NavLogo.jsx"
 
 
 const Navbar = () => {
