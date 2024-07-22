@@ -7,6 +7,7 @@ import cardImg2 from './assets/travel-img-2.jpg'
 import cardImg3 from './assets/travel-img-3.jpg'
 
 import tripsImg1 from './assets/trips-img-1.jpg'
+import Ambassador from './components/Ambassador'
 
 export const navLinks = [
     {
@@ -189,8 +190,23 @@ export const TripsData = [
         cost: '$1100',
         id: 6,
     },
+]
 
-
-
+export const AmbassadorTabs = [
+    {
+        tabText: 'What is this?',
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ut quae explicabo excepturi mollitia recusandae modi dignissimos eos atque officiis, doloribus et? Et eius aut, nulla blanditiis vitae officia sequi? Placeat odit debitis, corrupti laborum eligendi soluta ratione quos voluptatum pariatur repellat dolore velit sint molestias voluptates perspiciatis rerum esse facilis, ullam minima cupiditate, omnis quod laboriosam? Harum, tempore odit. Modi libero accusantium expedita distinctio! Ratione reiciendis laborum est numquam. Repellat quis reiciendis vel laudantium eius. Reiciendis doloribus repellat enim eius amet accusantium vel quaerat, alias officiis neque rem beatae.'
+    },
+    {
+        tabText: 'How can I get involved?',
+        id: 2,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ut quae explicabo excepturi mollitia recusandae modi dignissimos eos atque officiis, doloribus et? Et eius aut, nulla blanditiis vitae officia sequi? Placeat odit debitis, corrupti laborum eligendi soluta ratione quos voluptatum pariatur repellat dolore velit sint molestias voluptates perspiciatis rerum esse facilis, ullam minima cupiditate, omnis quod laboriosam? Harum, tempore odit. Modi libero accusantium expedita distinctio! Ratione reiciendis laborum est numquam. Repellat quis reiciendis vel laudantium eius. Reiciendis doloribus repellat enim eius amet accusantium vel quaerat, alias officiis neque rem beatae.'
+    },
+    {
+        tabText: 'Details',
+        id: 3,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ut quae explicabo excepturi mollitia recusandae modi dignissimos eos atque officiis, doloribus et? Et eius aut, nulla blanditiis vitae officia sequi? Placeat odit debitis, corrupti laborum eligendi soluta ratione quos voluptatum pariatur repellat dolore velit sint molestias voluptates perspiciatis rerum esse facilis, ullam minima cupiditate, omnis quod laboriosam? Harum, tempore odit. Modi libero accusantium expedita distinctio! Ratione reiciendis laborum est numquam. Repellat quis reiciendis vel laudantium eius. Reiciendis doloribus repellat enim eius amet accusantium vel quaerat, alias officiis neque rem beatae.'
+    }
 ]
 
